@@ -16,10 +16,10 @@ The 4 other phases are still under development.
 The Main.java file can invoked from the command line (cmd) with the line and takes the input file (ex. input.cl)
 ```
 //Compile the file
-javac -cp "( ANTLRPATH HERE )\antlr-4.8-complete.jar;" src/Main.java src/coolLexer.java
+javac -cp "( ANTLRPATH HERE )\antlr-4.8-complete.jar;" Path/Main.java Path/coolLexer.java
 
 //Run the file with the parameter
-java Main good.cl
+java -cp "( ANTLRPATH HERE )\antlr-4.8-complete.jar;" Main good.cl
 ```
 
 # Design Phase :
